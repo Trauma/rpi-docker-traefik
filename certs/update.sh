@@ -2,7 +2,7 @@
 
 set -e
 
-CERT_IMAGE="alpine:edge"
+CERT_IMAGE="hypriot/rpi-alpine-scratch:v3.3"
 
 # cd to the current directory so the script can be run from anywhere.
 cd `dirname $0`
